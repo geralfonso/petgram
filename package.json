@@ -1,88 +1,89 @@
 {
-  "name": "curso-platzi-react-avanzado",
-  "version": "1.0.0",
-  "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
-  },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.2",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "prettier": "^1.18.2",
-    "standard": "^13.0.2",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2"
-  },
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "ignore": [
-      "/api/**"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "./node_modules/standard/eslintrc.json",
-      "prettier",
-      "prettier/react"
-    ],
-    "plugins": [
-      "standard",
-      "react",
-      "import",
-      "promise",
-      "node",
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "semi": false
+    "name": "curso-platzi-react-avanzado",
+    "version": "1.0.0",
+    "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "webpack-dev-server",
+        "lint": "standard",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/geralfonso/petgram.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/geralfonso/petgram/issues"
+    },
+    "homepage": "https://github.com/geralfonso/petgram#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-eslint": "^10.0.2",
+        "babel-loader": "^8.0.6",
+        "eslint": "^6.0.1",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "prettier": "^1.18.2",
+        "standard": "^13.0.2",
+        "webpack": "^4.36.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    },
+    "dependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "standard": {
+        "parser": "babel-eslint",
+        "ignore": [
+            "/api/**"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/standard/eslintrc.json",
+            "prettier",
+            "prettier/react"
+        ],
+        "plugins": [
+            "standard",
+            "react",
+            "import",
+            "promise",
+            "node",
+            "prettier"
+        ],
+        "rules": {
+            "prettier/prettier": [
+                "error",
+                {
+                    "singleQuote": true,
+                    "semi": false,
+                    "tabWidth": 2
+                }
+            ],
+            "newline-after-var": [
+                "error",
+                "always"
+            ],
+            "quotes": [
+                "error",
+                "single",
+                {
+                    "allowTemplateLiterals": true
+                }
+            ]
         }
-      ],
-      "newline-after-var": [
-        "error",
-        "always"
-      ],
-      "quotes": [
-        "error",
-        "single",
-        {
-          "allowTemplateLiterals": true
-        }
-      ]
     }
-  }
 }
